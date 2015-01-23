@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Using Car Weight to Predict Horsepower</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Using Car Weight to Predict Horsepower">
+  <meta name="author" content="The Car Guy">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Using Car Weight to Predict Horsepower</h1>
+    <h2>A Useful Prediction Algorithm</h2>
+    <p>The Car Guy<br/>Car Expert</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Horsepower is an important element for those drivers that want some extra boost or accelration when using their automobile. An important factor determining how fast a car can accelerate is the weight of the car. This presentation discusses an app containing a prediction algorithm that predicts a car&#39;s horsepower based on its weight in pounds divided by 1,000.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Describing the Algorithm</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The algorithm is based off of the mtcars dataset. This data consists of 11 variables describing the design and performance of 32 automobiles. The algorithm is based on the principle that a car&#39;s weight can go a long way in predicting the car&#39;s horsepower value. The algorithm multiples the weight divided by 1,000 pounds by 45.33, which is the average result of dividing horsepower by weight in the dataset.</p>
+
+<p>A user enters a car&#39;s weight divided by 1,000 pounds and the app spits out a prediction of that car&#39;s amount of horsepower. This can be useful for car buyers who have an idea of how much horsepower they want, but who aren&#39;t sure what type of car they want(coupe, sedan, truck, etc.) or vice versa.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>An Example</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Take a car that weighs 4,500 pounds. The expression below shows how the app would work when evaluating such a car.</p>
+
+<pre><code class="r">4.5*45.33
+</code></pre>
+
+<pre><code>## [1] 204
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Conclusion</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Consider using this easy and intuitive app when purchasing your next car. It can help guide you in the right direction when it comes to evaluating how weight affects horsepower. Enjoy!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Describing the Algorithm'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='An Example'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Conclusion'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

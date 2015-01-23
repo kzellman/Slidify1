@@ -1,0 +1,33 @@
+---
+title       : Using Car Weight to Predict Horsepower
+subtitle    : A Useful Prediction Algorithm
+author      : The Car Guy
+job         : Car Expert
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+Horsepower is an important element for those drivers that want some extra boost or accelration when using their automobile. An important factor determining how fast a car can accelerate is the weight of the car. This presentation discusses an app containing a prediction algorithm that predicts a car's horsepower based on its weight in pounds divided by 1,000.
+
+---
+
+## Describing the Algorithm
+The algorithm is based off of the mtcars dataset. This data consists of 11 variables describing the design and performance of 32 automobiles. The algorithm is based on the principle that a car's weight can go a long way in predicting the car's horsepower value. The algorithm multiples the weight divided by 1,000 pounds by 45.33, which is the average result of dividing horsepower by weight in the dataset.
+
+A user enters a car's weight divided by 1,000 pounds and the app spits out a prediction of that car's amount of horsepower. This can be useful for car buyers who have an idea of how much horsepower they want, but who aren't sure what type of car they want(coupe, sedan, truck, etc.) or vice versa.
+
+---
+## An Example
+Take a car that weighs 4,500 pounds. The expression below shows how the app would work when evaluating such a car.
+```{r}
+4.5*45.33
+```
+
+---
+## Conclusion
+Consider using this easy and intuitive app when purchasing your next car. It can help guide you in the right direction when it comes to evaluating how weight affects horsepower. Enjoy!
